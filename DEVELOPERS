@@ -538,7 +538,7 @@ F:	package/syslog-ng/
 N:	Christian Kellermann <christian.kellermann@solectrix.de>
 F:	package/python-pylibftdi/
 
-N:	Christian Stewart <christian@paral.in>
+N:	Christian Stewart <christian@aperture.us>
 F:	package/balena-engine/
 F:	package/batman-adv/
 F:	package/catatonit/
@@ -662,7 +662,7 @@ N:	Damien Lanson <damien@kal-host.com>
 F:	package/libvdpau/
 F:	package/log4cpp/
 
-N:	Damien Le Moal <damien.lemoal@wdc.com>
+N:	Damien Le Moal <dlemoal@kernel.org>
 F:	package/python-kflash/
 F:	board/canaan/
 F:	configs/canaan_kd233_defconfig
@@ -702,8 +702,10 @@ F:	package/xinetd/
 
 N:	Dario Binacchi <dario.binacchi@amarulasolutions.com>
 F:	board/bsh/
+F:	board/stmicroelectronics/stm32f769-disco/
 F:	configs/imx8mn_bsh_smm_s2_defconfig
 F:	configs/imx8mn_bsh_smm_s2_pro_defconfig
+F:	configs/stm32f769_disco_sd_defconfig
 F:	package/sscep/
 F:	package/uuu/
 
@@ -860,9 +862,8 @@ F:	package/szip/
 N:	Esben Haabendal <esben@haabendal.dk>
 F:	package/python-kiwisolver/
 
-N:	Etienne Carriere <etienne.carriere@linaro.org>
+N:	Etienne Carriere <etienne.carriere@foss.st.com>
 F:	boot/optee-os/
-F:	package/optee-benchmark/
 F:	package/optee-client/
 F:	package/optee-examples/
 F:	package/optee-test/
@@ -1410,11 +1411,11 @@ F:	package/python-multidict/
 F:	package/python-mypy-extensions/
 F:	package/python-outcome/
 F:	package/python-pathspec/
-F:	package/python-pep517/
 F:	package/python-pycares/
 F:	package/python-pydyf/
 F:	package/python-pypa-build/
 F:	package/python-pyphen/
+F:	package/python-pyproject-hooks/
 F:	package/python-rtoml/
 F:	package/python-selenium/
 F:	package/python-snappy/
@@ -1632,7 +1633,6 @@ F:	support/testing/tests/package/test_avocado.py
 F:	support/testing/tests/package/test_python_aexpect.py
 
 N:	Joseph Kogut <joseph.kogut@gmail.com>
-F:	package/at-spi2-atk/
 F:	package/at-spi2-core/
 F:	package/clang/
 F:	package/earlyoom/
@@ -1712,6 +1712,7 @@ F:	package/kexec/
 F:	package/libjxl/
 F:	package/octave/
 F:	package/ola/
+F:	package/openblas/
 F:	package/openmpi/
 F:	package/perftest/
 F:	package/ptm2human/
@@ -1749,6 +1750,7 @@ F:	support/testing/tests/package/test_ncdu.py
 F:	support/testing/tests/package/test_octave.py
 F:	support/testing/tests/package/test_ola.py
 F:	support/testing/tests/package/test_ola/
+F:	support/testing/tests/package/test_openblas.py
 F:	support/testing/tests/package/test_perftest.py
 F:	support/testing/tests/package/test_python_distro.py
 F:	support/testing/tests/package/test_python_gnupg.py
@@ -1816,6 +1818,9 @@ F:	package/aircrack-ng/
 N:	Laurent Charpentier <laurent_pubs@yahoo.com>
 F:	package/open-lldp/
 
+N:	Laurent Vivier <laurent@vivier.eu>
+F:	package/petitboot/
+
 N:	Lee Jones <lee.jones@linaro.org>
 F:	boot/afboot-stm32/
 
@@ -1874,6 +1879,7 @@ F:	configs/zynqmp_zcu106_defconfig
 F:	package/agentpp/
 F:	package/exim/
 F:	package/libpjsip/
+F:	package/linux-tools/linux-tool-usbtools.mk.in
 F:	package/qpid-proton/
 F:	package/rtl8188eu/
 F:	package/snmppp/
